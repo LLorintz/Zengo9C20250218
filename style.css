@@ -1,0 +1,56 @@
+body{
+    background-color: forestgreen;
+}
+#content{
+    background-color: beige;
+	width: 888px;
+    border-radius: 20px;
+    margin: auto;
+    padding:20px
+}
+#imageright{
+    float: right;
+    border: 2px solid forestgreen;
+    border-radius: 20px;
+	margin-left:20px;
+    background: bisque;
+}
+#imageright img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width:200px;
+}
+.kepszoveg{
+    margin:3px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+#imageleft{
+    float: left;
+    border: 2px solid forestgreen;
+    border-radius: 20px;
+	margin-left:20px;
+    background: bisque;
+    margin-right: 30px;
+}
+
+#imageleft img{
+    width:300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1, h2{
+    text-transform: uppercase;
+    color:forestgreen;
+}
+a{
+    text-decoration: none;
+}
+a, a:visited{
+    color: blue;
+}
+a:hover{
+    color:red;
+}
